@@ -63,8 +63,10 @@
               </div>
               <button class="btn btn-info">SIGN UP </button>
                <!-- FACEBOOK LOGIN -->    
+<!--
                 <button  class="btn" type="button" value="Login with facebook" onclick="window.location='<?php echo $loginURL;?>'" style="background:#3b5998;"><i class="fa fa-facebook" aria-hidden="true"></i>
 Signup with Facebook</button>
+-->
             </form>
             
             

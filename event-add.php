@@ -73,12 +73,12 @@ $city = $_SESSION['city'];
               <div class="form-row">
                 <div class="col">
                  <label for="eventPic" class="upload">
-                 CHOOSE AN EVENT IMAGE (Max. size: 2MB) <input id="eventPic" name="eventPic" type="file">
+                 CHOOSE AN EVENT IMAGE (Max. size: 2MB, format: jpg, jpeg, png) <input id="eventPic" name="eventPic" type="file">
                  </label>
                 </div>
                 <div class="col">
                      <label for="pdf" class="upload">
-                         UPLOAD PROOGRAM (Max. size: 8MB) <input id="pdf" name="pdf" type="file">
+                         UPLOAD PROOGRAM (Max. size: 8MB, format: PDF) <input id="pdf" name="pdf" type="file">
                      </label>
                 </div>
               </div>
