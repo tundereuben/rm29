@@ -1,0 +1,388 @@
+body{
+    color:dimgray;
+}
+
+.navbar-brand{
+    padding: 0 50px;
+}
+
+.navbar-nav .nav-item {
+    border-left: solid 1px #ccc;
+    border-right: solid 1px #ccc;
+    padding: 0 2px;
+    width: 150px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+
+.jumbotron{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    min-height: 100px;
+}
+
+.jumbotron h3{
+    color: #29AAFE;
+    padding: 10px;
+}
+
+.jumbotron .container{
+    padding: 20px;
+}
+
+.jumbotron input{
+    margin-bottom: 10px;
+}
+
+.events .heading{
+    margin:40px auto;
+    text-align: center;
+}
+
+#eventBlock{
+    text-align: center;
+}
+
+#eventBlock img{
+    height: 200px;
+    width: 100%;
+}
+
+/*
+#eventBlock .col-sm {
+    border: solid 1px #ccc;
+    margin: 10px;
+    padding: 5px;
+}
+*/
+
+#eventBlock a {
+    text-decoration: none;
+    color: grey;
+}
+
+#eventBlock h5 , #eventBlock h4{
+    padding: 5px 0;
+    color: #000;
+}
+
+#eventBlock #phpEventLoader{
+    background:#E9ECEF;
+    border: solid 1px #ccc;
+    margin: 10px 5px;
+    padding: 5px;
+}
+
+#eventBlock .btn{
+    margin:  30px auto;
+    color:white;
+    width: 200px;
+/*    background: #29AAFE;*/
+}
+
+
+
+.how-it-works{
+    background:#E9ECEF;
+    margin: 50px 0 0 0;
+    padding: 20px 20px 50px 50px;;
+    line-height: 35px;
+    color: grey;
+}
+
+.how-it-works h2{
+   color: #29AAFE; 
+}
+
+.how-it-works .btn{
+    margin: 40px 0;
+}
+
+.how-it-works img{
+   width: 100%;
+}
+
+.service-providers a{
+    margin: 50px auto;
+    padding: 50px auto;
+/*    height: 300px;*/
+}
+
+.service-providers i{
+    color: #29AAFE;
+    font-size: 3em;
+    margin: 30px auto;
+}
+
+.service-providers {
+    color: #29AAFE;
+}
+
+.container-fluid #external-links{
+    background: black url(assets/img/external-bg.jpg);
+    text-align: center;
+    padding: 50px auto;
+}
+
+#external-links h4{
+    padding: 50px auto;
+    margin: 50px auto;
+    color: #fff;
+}
+
+#external-links a{
+    text-decoration: none;
+    color: grey;
+}
+
+
+#external-links img{
+    height: 150px;
+}
+
+
+/*FOOTER*/
+footer{
+    background:#26272B;
+    text-align: left;
+
+}
+
+footer li{
+    list-style-type: none;
+    text-align: left;
+}
+
+footer a{
+    text-decoration: none;
+    color: grey;
+}
+
+footer h6{
+    margin: 10px 0;
+    color:#fff;
+    font-weight: bold;
+}
+
+footer p{
+    margin: 5px auto;
+}
+
+
+
+/*
+======== LOGIN FORM========
+*/
+#login-form{
+    background: #E5E7ED;
+    margin-top: 50px;
+    padding: 50px 20px;
+    text-align: center;
+    color: gray;
+    border-radius: 10px;
+}
+
+#login-form .btn{
+    width: 100%;
+    margin: 10px 0 0 0;
+    color:#fff;
+}
+
+#login-form a{
+    color: gray;
+}
+
+
+/*
+======== RESET PASSWORD ========
+*/
+#reset-password{
+    background: #E5E7ED;
+    margin-top: 50px;
+    padding: 50px 20px;
+    text-align: center;
+    color: gray;
+    border-radius: 10px;
+}
+
+#reset-password .btn{
+    width: 100%;
+    margin: 20px 0;
+}
+
+#reset-password a{
+    color: gray;
+}
+
+
+
+/*
+======== ======== ======== ========
+======== EVENT-MANAGE PAGE ========
+======== ======== ======== ========
+*/
+#event{
+    margin: 30px 0px;
+    border: solid 1px #eee;
+}
+
+#event-heading{
+    text-align: center;
+}
+
+#event-list{
+    background:#F8F9FA;
+    margin: 30px auto;
+    padding: 20px; 
+    border: solid 1px #eee;
+}
+
+#event-list .bold{
+    font-weight: bold;
+}
+#event-list img{
+    width: 150px;
+    height: 100px;
+    padding: 10px;
+}
+
+#event-list .date-view{
+    border-top: solid 1px black;
+}
+
+#event-list .btn{
+    font-size: 0.6em;
+    min-width: 80px;
+    font-weight: bold;
+}
+
+
+/*
+======== ======== ======== ========
+======== EVENT-DETAIL PAGE ========
+======== ======== ======== ========
+*/
+
+.detail-content{
+    background:#F8F9FA;
+    margin: 70px;
+    padding:30px;
+}
+
+.detail-content #title{
+    text-align: center;
+}
+
+.detail-content h3{
+    text-align: left;
+}
+
+.detail-content #description{
+    line-height: 35px;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+.detail-content img{
+    padding: 10px;
+    border: solid 1px gray;
+    max-width: 300px;
+}
+
+.detail-content #view, .detail-content #share {
+    background: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+.detail-content #view .btn{
+   float: right;
+}
+
+.detail-content .btn{
+    margin: auto;
+    margin-top: 20px;
+}
+
+.bold{
+/*    font-weight: bold;*/
+/*    color:#29AAFE;*/
+    color:#000;
+/*    text-decoration: underline;*/
+}
+
+
+
+/*
+======== ======== ======== ========
+======== EVENT-ADD PAGE ========
+======== ======== ======== ========
+*/
+.add-event{
+    background: #F8F9FA;
+    text-align: center;
+    margin: 50px 20px;
+    padding: 20px;
+}
+
+.form-row{
+    margin: 10px auto;
+    width: 90%;
+}
+
+form .upload{
+    border: solid 1px #eee;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    background: #fff;
+}
+
+
+/*
+======== ======== ======== ========
+======== EVENT-CENTERS PAGE ========
+======== ======== ======== ========
+*/
+#event-centers{
+    margin: 10px;
+    padding: 10px;
+    border: solid grey 1px;
+}
+
+
+/*
+======== ======== ======== ========
+======== CONTACT PAGE ========
+======== ======== ======== ========
+*/
+.contact{
+    text-align: center;
+    margin: 40px auto;
+}
+
+.contact h3{
+    color: #29AAFE;
+}
+
+.contact .btn{
+    width: 200px;
+}
+
+.contact form{
+    border: solid 1px #29AAFE;
+    padding:20px;
+    border-radius: 10px;
+}
+/*
+======== MEDIA QUERIS ========
+*/
+@media only screen and (max-width: 768px) {
+    .navbar-nav .nav-item {
+        border: none;
+        text-align: left;
+    }
+    
+}
